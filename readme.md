@@ -4,11 +4,14 @@ This repository contains the code and experiments behind the talk “ETL Beyond 
 We benchmark Polars, DuckDB, and Apache Spark on ETL-style workloads, focusing on cost efficiency (GB per Dollar) across different data scales.
 
 # 📊 Benchmark Summary
-Scale Factor	Polars	DuckDB	Spark
-sf10	151.65	102.73	0.91
-sf50	279.45	241.17	8.11
-sf100	250.25	144.74	13.71
-sf500	200.43	182.41	54.85
+
+| Scale Factor | Polars | DuckDB | Spark |
+| ------------ | ------ | ------ | ----- |
+| sf10         | 151.65 | 102.73 | 0.91  |
+| sf50         | 279.45 | 241.17 | 8.11  |
+| sf100        | 250.25 | 144.74 | 13.71 |
+| sf500        | 200.43 | 182.41 | 54.85 |
+
 
 (GB processed per Dollar spent)
 
