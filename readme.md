@@ -1,6 +1,6 @@
 # ETL Beyond Spark – Benchmarking Project
 
-This repository contains the code and experiments behind the talk “ETL Beyond Spark” (PyCon 20XX).
+This repository contains the code and experiments behind the talk “ETL Beyond Spark” (PyCon Greece 2025).
 We benchmark Polars, DuckDB, and Apache Spark on ETL-style workloads, focusing on cost efficiency (GB per Dollar) across different data scales.
 
 # 📊 Benchmark Summary
